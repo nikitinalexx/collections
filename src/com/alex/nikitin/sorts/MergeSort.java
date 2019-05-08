@@ -9,7 +9,7 @@ public class MergeSort {
     public static void mergeSort(int[] array) {
         mergeUtil(array, 0, array.length - 1);
     }
-    
+
     private static void mergeUtil(int[] array, int start, int end) {
         int middle = (start + end) / 2;
 
