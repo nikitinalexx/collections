@@ -1,9 +1,9 @@
 package com.alex.nikitin.graphs;
 
-import com.alex.nikitin.ArrayStack;
-import com.alex.nikitin.LinkedQueue;
-import com.alex.nikitin.Queue;
-import com.alex.nikitin.Stack;
+import com.alex.nikitin.collections.ArrayStack;
+import com.alex.nikitin.collections.LinkedQueue;
+import com.alex.nikitin.collections.Queue;
+import com.alex.nikitin.collections.Stack;
 
 import java.util.ArrayList;
 import java.util.List;

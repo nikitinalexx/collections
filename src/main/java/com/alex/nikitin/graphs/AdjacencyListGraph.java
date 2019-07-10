@@ -1,6 +1,6 @@
 package com.alex.nikitin.graphs;
 
-import com.alex.nikitin.LinkedQueue;
+import com.alex.nikitin.collections.LinkedQueue;
 
 import java.util.*;
 
@@ -59,7 +59,7 @@ public class AdjacencyListGraph<T> {
 
     public Set<T> breadthFirstTraversal(T root) {
         Set<T> visited = new LinkedHashSet<>();
-        com.alex.nikitin.Queue<T> queue = new LinkedQueue<>();
+        com.alex.nikitin.collections.Queue<T> queue = new LinkedQueue<>();
         queue.enqueue(root);
         while (!queue.isEmpty()) {
             T vertex = queue.dequeue();
